@@ -1,21 +1,21 @@
 {
-  "name": "@perugi/changeme",
+  "name": "constraint-validation-sandbox",
   "version": "1.0.0",
-  "description": "CHANGEME",
-  "main": "package.js",
+  "description": "Playing around with the JS Constraint Validation API to validate a form as the user is filling it out",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perugi/CHANGEME.git"
+    "url": "git+https://github.com/perugi/constraint-validation-sandbox.git"
   },
   "author": "Dominik Perusko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/perugi/CHANGEME/issues"
+    "url": "https://github.com/perugi/constraint-validation-sandbox/issues"
   },
-  "homepage": "https://github.com/perugi/CHANGEME#readme",
+  "homepage": "https://github.com/perugi/constraint-validation-sandbox#readme",
   "devDependencies": {
     "@perugi/eslint-config": "^1.0.3",
     "@perugi/prettier-config": "^1.0.2",
