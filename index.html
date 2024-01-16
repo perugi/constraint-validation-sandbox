@@ -12,7 +12,14 @@
     <form novalidate>
       <div>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          autocomplete="username"
+        />
+        <output id="email-status"></output>
       </div>
       <div>
         <label for="country">Country:</label>
@@ -273,14 +280,23 @@
           <option value="ZM">Zambia</option>
           <option value="ZW">Zimbabwe</option>
         </select>
+        <output id="country-status"></output>
       </div>
       <div>
         <label for="zip">Zip Code:</label>
         <input type="text" id="zip" name="zip" required />
+        <output id="zip-status"></output>
       </div>
       <div>
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          autocomplete="new-password"
+        />
+        <output id="password-status"></output>
       </div>
       <div>
         <label for="confirm-password">Confirm Password:</label>
@@ -289,9 +305,11 @@
           id="confirm-password"
           name="confirm-password"
           required
+          autocomplete="new-password"
         />
+        <output id="confirm-password-status"></output>
       </div>
-      <button type="submit">Submit</button>
+      <button id="submit" type="submit">Submit</button>
     </form>
   </body>
 </html>

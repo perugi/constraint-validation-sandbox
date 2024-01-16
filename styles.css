@@ -5,3 +5,8 @@
 :root {
   --crimson-red: #cc2d2d;
 }
+
+input:invalid,
+select:invalid {
+  border-color: var(--crimson-red);
+}
